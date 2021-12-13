@@ -1,0 +1,10 @@
+.MainFlex{
+    padding:20px 2px 2px;
+    border-bottom: 1px;
+    border-color: lightgray;
+}
+.LinkBox{
+    font-size: 30px;
+    color: teal;
+    font-weight: bold;
+}

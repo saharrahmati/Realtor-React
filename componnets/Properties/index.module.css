@@ -1,0 +1,38 @@
+.GoBox{
+    padding-right: 3px;
+    color : green;
+}
+.MainFlex{
+    flex-wrap: wrap;
+    width: 420px;
+    justify-content: center;
+    cursor: pointer;
+}
+.Price{
+    font-weight: bold;
+   font-size: 16px;
+}
+.AlignItems{
+    align-items: center;
+}
+.RoomInfo {
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+    width: 250px;
+    color: teal;
+}
+.Details{
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.RoomTitle{
+    font-size: 16px;
+    padding: 10px;
+}
+@media screen and (max-width: 1200px){
+    .MainFlex{
+        margin: 10px 20px;
+    }
+}
